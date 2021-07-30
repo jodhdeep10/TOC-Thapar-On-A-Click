@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fridaymess">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7C42C9F3"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:layout_height="50dp"
+                android:layout_column="1"
+                android:text="" />
+
+            <TextView
+                android:layout_height="50dp"
+                android:layout_column="2"
+                android:text="" />
+        </TableRow>
+
+        <TableRow android:layout_height="150sp">
+
+            <TextView
+                android:layout_width="156dp"
+                android:layout_height="85dp"
+                android:layout_column="1"
+                android:gravity="left"
+                android:padding="14dip"
+                android:text="\nBreakfast"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#FF474747"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="85dp"
+                android:layout_column="2"
+                android:gravity="right"
+                android:padding="14dip"
+                android:text="Paneer paratha\nSprouts\nMilk"
+                android:textAlignment="center"
+                android:textColorLink="#2196F3"
+                android:textSize="14sp" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_height="150sp"
+            android:background="#7C42C9F3">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="85dp"
+                android:layout_column="1"
+                android:gravity="left"
+                android:padding="14dip"
+                android:text="\nlunch"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#474747"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="85dp"
+                android:layout_column="2"
+                android:gravity="right"
+                android:padding="14dip"
+                android:text="Kadhi\nRice\nSalad"
+                android:textAlignment="center"
+                android:textColorLink="#2196F3"
+                android:textSize="14sp" />
+        </TableRow>
+
+
+        <TableRow android:layout_height="150sp">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="85dp"
+                android:layout_column="1"
+                android:gravity="left"
+                android:padding="14dip"
+                android:text="\nDinner"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#FF474747"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="85dp"
+                android:layout_column="2"
+                android:gravity="right"
+                android:padding="14dip"
+                android:text="Malai kofta\nRoti/rice\nManchurian"
+                android:textAlignment="center"
+                android:textColorLink="#2196F3"
+                android:textSize="14sp" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_height="150sp"
+            android:background="#7C42C9F3">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_height="85dp"
+                android:layout_column="1"
+                android:gravity="left"
+                android:padding="14dip"
+                android:text="\nSweet dish"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textColor="#474747"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="85dp"
+                android:layout_column="2"
+                android:gravity="right"
+                android:padding="14dip"
+                android:text="\nIce cream"
+                android:textAlignment="center"
+                android:textColorLink="#2196F3"
+                android:textSize="14sp" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:background="@android:color/holo_blue_light"
+        android:text="FRIDAY"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/food5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#7C74DDFD"
+    android:elevation="40dp"
+    android:fadingEdge="horizontal"
+    tools:context=".MainActivity"
+    tools:ignore="HardcodedText">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#4AA7F1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="261dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/_616_copy" />
+
+        <TextView
+
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/study"
+            android:textAllCaps="true"
+            android:textColor="#FF9800"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#4AA7F1"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="242dp"
+                android:layout_weight="1"
+                android:backgroundTint="#4AA7F1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageButton
+                    android:id="@+id/society"
+                    android:layout_width="78dp"
+                    android:layout_height="195dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripple"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="TODO"
+                    android:elevation="40dp"
+                    android:src="@drawable/ic_society" />
+
+                <ImageButton
+                    android:id="@+id/time_table"
+                    android:layout_width="78dp"
+                    android:layout_height="195dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripple"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="TODO"
+                    android:elevation="40dp"
+                    android:paddingLeft="15dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_tt1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:layout_weight="1"
+                android:backgroundTint="#4AA7F1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/webkiosk"
+                    android:layout_width="78dp"
+                    android:layout_height="195dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripple"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="TODO"
+                    android:elevation="40dp"
+
+                    android:fadingEdge="horizontal"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_webkiosk" />
+
+                <ImageButton
+                    android:id="@+id/cgpacalculator"
+                    android:layout_width="78dp"
+                    android:layout_height="195dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripple"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="TODO"
+                    android:cropToPadding="false"
+                    android:elevation="40dp"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/ic_cgpa" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/hostel_and_mess"
+            android:textAllCaps="true"
+            android:textColor="#FF9800"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="216dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/hostel"
+                    android:layout_width="78dp"
+                    android:layout_height="186dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripple"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="TODO"
+                    android:elevation="40dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_hostelnew" />
+
+                <ImageButton
+                    android:id="@+id/mess"
+                    android:layout_width="78dp"
+                    android:layout_height="186dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripple"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="TODO"
+                    android:elevation="40dp"
+                    android:src="@drawable/ic_mess" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Resources"
+            android:textAllCaps="true"
+            android:textColor="#FF9800"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#4AA7F1"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="217dp"
+                android:layout_weight="1"
+                android:backgroundTint="#4AA7F1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/myherupa"
+                    android:layout_width="78dp"
+                    android:layout_height="175dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripple"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="TODO"
+                    android:elevation="40dp"
+                    android:paddingLeft="60dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_herupa" />
+
+                <ImageButton
+                    android:id="@+id/moodle"
+                    android:layout_width="78dp"
+                    android:layout_height="175dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripple"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="TODO"
+                    android:elevation="40dp"
+                    android:paddingLeft="30dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_tiet_lms" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Miscellaneous"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FF9800"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="219dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/nearby_places"
+                    android:layout_width="78dp"
+                    android:layout_height="191dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="7.5dp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/ripple"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="TODO"
+                    android:elevation="40dp"
+                    android:fadeScrollbars="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_nearby_places" />
+
+                <ImageButton
+                    android:id="@+id/contacts"
+                    android:layout_width="78dp"
+                    android:layout_height="191dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7.5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripple"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="TODO"
+                    android:cropToPadding="false"
+                    android:elevation="40dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_contacts" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#4AA7F1"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="187dp"
+                android:layout_weight="1"
+                android:backgroundTint="#4AA7F1"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/settings"
+                    android:layout_width="322dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="50dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginRight="7.5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ripple"
+                    android:backgroundTint="#FFFFFF"
+                    android:contentDescription="TODO"
+                    android:elevation="40dp"
+                    android:src="@drawable/ic_settings" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FF9800"
+            android:text="About the Team"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+
+</ScrollView>

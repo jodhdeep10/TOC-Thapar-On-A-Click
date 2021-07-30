@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7C74DDFD">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".SettingsActivity">
+
+        <TextView
+            android:id="@+id/texttitle3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="75dp"
+            android:text="@string/confirm"
+            android:textAlignment="center"
+            android:textColor="#1C1B1B"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/name3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/texttitle3"
+            android:autofillHints="@string/name"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/password3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name3"
+            android:layout_marginTop="20dp"
+            android:autofillHints="@string/name"
+            android:hint="@string/password"
+            android:inputType="textPersonName"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/btnDelete3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password3"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="110dp"
+            android:text="@string/delete_account"
+            app:backgroundTint="@android:color/holo_blue_light" />
+
+        <Button
+            android:id="@+id/signout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnDelete3"
+            android:background="@android:color/transparent"
+            android:text="@string/log_out_instead"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+</ScrollView>

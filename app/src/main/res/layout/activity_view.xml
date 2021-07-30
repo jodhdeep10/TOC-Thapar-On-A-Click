@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7C74DDFD">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:context=".SettingsActivity">
+
+        <TextView
+            android:id="@+id/texttitle5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="15dp"
+            android:text="@string/enter_your_id_and_password_for_safety_reasons"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/name5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/texttitle5"
+            android:layout_marginTop="50sp"
+            android:autofillHints="@string/name"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/password5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name5"
+            android:layout_marginTop="20dp"
+            android:autofillHints="@string/name"
+            android:hint="@string/password"
+            android:inputType="textPersonName"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/view5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password5"
+            android:layout_marginTop="60dp"
+            android:text="@string/view"
+            app:backgroundTint="@android:color/holo_blue_light" />
+
+        <Button
+            android:id="@+id/signout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view5"
+            android:layout_marginTop="110dp"
+            android:background="@android:color/transparent"
+            android:text="@string/log_out"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">TOC-Thapar On a Click</string>
+    <string name="study">Study</string>
+    <string name="hostel_and_mess">Hostel and Mess</string>
+    <string name="ph">Physics</string>
+    <string name="ma">Maths</string>
+    <string name="cp">OOPS</string>
+    <string name="ed">ED</string>
+    <string name="mp">MP</string>
+    <string name="pc">PC</string>
+    <string name="bl">-</string>
+
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="title_activity_monday">monday</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_tuesday">tuesday</string>
+    <string name="title_activity_thursday">Thursday</string>
+    <string name="title_activity_decathlon">Map</string>
+    <string name="name">Name</string>
+    <string name="please_enter_the_details_below">Please enter the details below</string>
+    <string name="contact">Contact</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="insert_new_data">Insert New Data</string>
+    <string name="update_data">Update Data</string>
+    <string name="delete_existing_data">Delete Existing Data</string>
+    <string name="view_data">View Data</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="batch">Batch</string>
+    <string name="roll_number">Roll number</string>
+    <string name="register">Register</string>
+    <string name="existing_user_sign_in_here">Existing user? Sign in here</string>
+    <string name="new_user_register_here">New user? Register here</string>
+    <string name="sign_in">Sign in</string>
+    <string name="confirm">NOTE: The following action cannot be undone. Enter your name to confirm delete action</string>
+    <string name="delete_account">Delete account</string>
+    <string name="log_out_instead">Log out instead</string>
+    <string name="enter_your_id_and_password_for_safety_reasons">Enter your id and password for safety reasons</string>
+    <string name="view">View</string>
+    <string name="log_out">Log out</string>
+    <string name="nothing">nothing</string>
+    <string name="login">LOGIN</string>
+    <string name="username">Username</string>
+    <string name="settings">Settings</string>
+</resources>

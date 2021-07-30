@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Wednesday">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7C74DDFD"
+        android:stretchColumns="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="20dip"
+                android:text="" />
+
+            <TextView
+                android:gravity="right"
+                android:padding="20dip"
+                android:text="" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="09:00-09:50"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="@string/cp"
+                android:textAlignment="center"
+                android:textColorLink="#2196F3"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow android:background="#7C42C9F3">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="09:50-10:40"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="@string/bl"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="10:40-11:30"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="@string/pc"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow android:background="#7C42C9F3">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="11:30-12:20"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="@string/ed"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="12:20-01:10"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="@string/bl"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow android:background="#7C42C9F3">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="01:10-02:00"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="MP"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="02:00-02:50"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="@string/bl"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow android:background="#7C42C9F3">
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="02:50-03:40"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="@string/ma"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="10dp"
+                android:layout_column="1"
+                android:padding="14dip"
+                android:text="03:40-04:30"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="270dp"
+                android:gravity="right"
+                android:padding="12dip"
+                android:text="@string/bl"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:background="#00BCD4"
+        android:text="WEDNESDAY"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
